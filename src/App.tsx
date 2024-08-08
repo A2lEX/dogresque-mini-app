@@ -5,12 +5,11 @@ import Avatar from './components/utils/Avatar';
 import SkipButton from './components/buttons/SkipButton';
 import PrimaryButton from './components/buttons/PrimaryButton';
 import dog from './assets/dog.svg';
+import DogCard from './components/DogCard';
 
 enum View {
     LANDING = 0,
-    CONNECT = 1,
-    CONNECTED = 2,
-    WALLET = 3,
+    DOGS = 1,
 }
 
 WebApp.setHeaderColor('#1a1a1a');
@@ -23,6 +22,13 @@ function App() {
     const skip = () => {
         setView(view + 1);
     };
+
+    const dogData = [
+        { photo: '/dogs/1.jpeg', description: 'Dog 1 description' },
+        { photo: '/dogs/2.jpeg', description: 'Dog 2 description' },
+        { photo: '/dogs/3.jpeg', description: 'Dog 3 description' },
+        // Add more dog data as needed
+    ];
 
     return (
         <div className="flex flex-col h-full min-h-screen w-screen rounded-xl bg-customGrayWallet">
@@ -50,6 +56,14 @@ function App() {
                             callback={skip}
                         />
                     </div>
+                </div>
+            )}
+
+            {view === View.DOGS && (
+                <div className="dog-table grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+                    {dogData.map((dog, index) => (
+                        <DogCard key={index} photo={dog.photo} description={dog.description} />
+                    ))}
                 </div>
             )}
         </div>
