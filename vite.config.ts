@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
     plugins: [react(), basicSsl()],
     build: {
-        outDir: './docs',
+        outDir: './dist',
     },
     base: './',
     server: {
