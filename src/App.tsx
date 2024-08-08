@@ -24,9 +24,9 @@ function App() {
     };
 
     const dogData = [
-        { photo: '/dogs/1.jpeg', description: 'Dog 1 description' },
-        { photo: '/dogs/2.jpeg', description: 'Dog 2 description' },
-        { photo: '/dogs/3.jpeg', description: 'Dog 3 description' },
+        { photo: '/dogs/1.jpeg', description: 'Very lovely dog' },
+        { photo: '/dogs/2.jpeg', description: 'Wolf in sheep clothing' },
+        { photo: '/dogs/3.jpeg', description: 'Bear or dog?' },
         // Add more dog data as needed
     ];
 
