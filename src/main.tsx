@@ -30,7 +30,7 @@ WebApp.ready();
 WebApp.enableClosingConfirmation();
 
 // Create the WalletConnect modal
-createWalletConnectModal();
+//createWalletConnectModal();
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -39,9 +39,7 @@ const root = ReactDOM.createRoot(
 root.render(
     <React.StrictMode>
         <Provider store={store}>
-            <TonConnectUIProvider manifestUrl="https://softstack.github.io/telegram-mini-app/tonconnect-manifest.json">
-                <App />
-            </TonConnectUIProvider>
+            <App />
         </Provider>
     </React.StrictMode>
 );
