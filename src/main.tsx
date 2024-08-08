@@ -6,12 +6,9 @@ import { Provider } from 'react-redux';
 import { store } from './redux/store';
 
 // TonConnect UI
-import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
 // Rainbow Kit
 import './polyfills';
-
-import { createWalletConnectModal } from './configs/walletConnect';
 
 // Telegram Mini App SDK
 import WebApp from '@twa-dev/sdk';
