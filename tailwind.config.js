@@ -1,31 +1,34 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-    darkMode: 'class',
-    content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-    theme: {
-        extend: {
-            boxShadow: {
-                'custom-white': '0px 0px 4px 10px rgba(255, 255, 255, 0.2)',
-            },
-            colors: {
-                customGreen: '#273f44',
-                customGrayText: '#888a8c',
-                customBlue: '#aadaf1',
-                customGraySkip: '#888A8C',
-                customBlueButton: '#007aff',
-                customGrayAddress: '#707579',
-                customGrayWallet: '#efeff4',
-                customBlackText: '#212121',
-                customBlueSelected: '#B9C1F4',
-                customGrayLine: '#c6c6c6',
-                customGrayAccountDetails: '#616161',
-                customDarkModeBackground: '#262233',
-                customDarkModeTextColor: '#DEDEDE',
-            },
-            gridTemplateColumns: {
-                'custom-1-3-1': '1fr 3fr 1fr',
-            },
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './contexts/**/*.{js,ts,jsx,tsx,mdx}',
+    './hooks/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f0f4ff',
+          100: '#e0e9ff',
+          200: '#c7d7fe',
+          300: '#a4bafe',
+          400: '#8192fc',
+          500: '#667eea',
+          600: '#5a67d8',
+          700: '#4c51bf',
+          800: '#434190',
+          900: '#3c366b',
         },
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
     },
-    plugins: [],
-};
+  },
+  plugins: [],
+}
+

@@ -1,0 +1,370 @@
+{
+  "nav": {
+    "dogs": "Dogs",
+    "register": "Register",
+    "login": "Login",
+    "donations": "Donations",
+    "goals": "Goals",
+    "profile": "Profile",
+    "logout": "Logout",
+    "search": "Search dogs..."
+  },
+  "roles": {
+    "privatePerson": "Private Person",
+    "shelter": "Shelter"
+  },
+  "home": {
+    "title": "patrons.dog - Help for Dogs",
+    "hero": {
+      "title": "Help Dogs Find a Home",
+      "subtitle": "Join our community and help homeless dogs find a loving family",
+      "findDog": "Find a Dog",
+      "becomeShelter": "Become a Shelter"
+    },
+    "statistics": {
+      "dogsLooking": "Dogs Looking for Home",
+      "dogsFound": "Dogs Found Home",
+      "donationsRaised": "Donations Raised"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "A simple process that helps dogs find a loving family",
+      "step1": {
+        "icon": "🔍",
+        "title": "Find a Dog",
+        "description": "Browse dog profiles, search by breed, age and other parameters"
+      },
+      "step2": {
+        "icon": "💝",
+        "title": "Make a Donation",
+        "description": "Support a dog financially or become a volunteer at a shelter"
+      },
+      "step3": {
+        "icon": "🏠",
+        "title": "Give a Home",
+        "description": "Adopt a dog and give it a loving family forever"
+      }
+    },
+    "randomDog": {
+      "title": "🐾 Dog of the Day",
+      "anotherDog": "🔄 Another Dog",
+      "learnMore": "Learn More →",
+      "years": {
+        "one": "year",
+        "few": "years",
+        "many": "years"
+      }
+    },
+    "popularDogs": {
+      "title": "⭐ Popular Dogs",
+      "subtitle": "Most popular pets looking for a home",
+      "viewAll": "View All Dogs →"
+    },
+    "swipe": {
+      "title": "💝 Find Your Dog",
+      "subtitle": "Swipe through cards and find your perfect friend",
+      "loading": "Loading dogs...",
+      "allViewed": "You've viewed all dogs! 🎉",
+      "startOver": "Start Over",
+      "noDogs": "No dogs available"
+    },
+    "successStories": {
+      "title": "✨ Success Stories",
+      "subtitle": "Real stories of happy dogs and their new families"
+    },
+    "cta": {
+      "title": "Ready to Help?",
+      "subtitle": "Join our community and help dogs find a home",
+      "register": "Register",
+      "addDog": "Add a Dog"
+    }
+  },
+  "register": {
+    "title": "Registration",
+    "subtitle": "Create an account and start helping dogs",
+    "accountType": "Account Type",
+    "userType": "User Type",
+    "privatePerson": "Private Person",
+    "shelter": "Shelter",
+    "shelterName": "Shelter Name",
+    "name": "First and Last Name",
+    "namePlaceholder": "John Doe",
+    "shelterNamePlaceholder": "Your shelter name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "At least 6 characters",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Repeat password",
+    "submit": "Register",
+    "submitting": "Registering...",
+    "success": "Registration successful!",
+    "alreadyHaveAccount": "Already have an account?",
+    "login": "Login",
+    "info": "💡 Other information (phone, address, description) can be filled in your profile after registration",
+    "terms": "By registering, you agree to the",
+    "termsLink": "terms of use",
+    "and": "and",
+    "privacyLink": "privacy policy",
+    "errors": {
+      "nameRequired": "Name is required",
+      "nameMin": "Name must be at least 2 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 6 characters",
+      "confirmPasswordRequired": "Please confirm your password",
+      "passwordMismatch": "Passwords do not match",
+      "general": "An error occurred during registration. Please try again."
+    }
+  },
+  "login": {
+    "title": "Login",
+    "subtitle": "Sign in to your account",
+    "accountType": "Account Type",
+    "userType": "User Type",
+    "privatePerson": "Private Person",
+    "shelter": "Shelter",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "forgotPassword": "Forgot password?",
+    "submit": "Login",
+    "submitting": "Logging in...",
+    "success": "Login successful!",
+    "registrationSuccess": "Registration successful! Now you can sign in.",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "general": "Invalid email or password"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Update your information, upload a photo and tell us more about your project",
+    "privatePerson": {
+      "firstName": "First Name",
+      "firstNamePlaceholder": "John",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Doe",
+      "email": "Email",
+      "emailPlaceholder": "email@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "avatar": "Avatar URL",
+      "avatarUrlPlaceholder": "https://example.com/avatar.jpg"
+    },
+    "shelter": {
+      "name": "Shelter Name",
+      "namePlaceholder": "Dog Shelter",
+      "description": "Description",
+      "descriptionPlaceholder": "Tell us about your shelter",
+      "address": "Address",
+      "addressPlaceholder": "123 Main St, City, State",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "email": "Email",
+      "emailPlaceholder": "shelter@example.com",
+      "website": "Website",
+      "websitePlaceholder": "https://example.com",
+      "logo": "Logo URL",
+      "logoUrlPlaceholder": "https://example.com/logo.svg"
+    },
+    "save": "Save Changes",
+    "saving": "Saving...",
+    "uploadAvatar": "Upload Avatar",
+    "uploadLogo": "Upload Logo",
+    "or": "or",
+    "deleteAvatar": "Delete Avatar",
+    "deleteLogo": "Delete Logo",
+    "uploadHint": "Upload image or enter URL",
+    "success": "Profile updated successfully",
+    "backToHome": "Back to Home",
+    "userTypeError": "Could not determine user type.",
+    "errors": {
+      "nameRequired": "Name is required",
+      "firstNameRequired": "First name is required",
+      "shelterNameRequired": "Shelter name is required",
+      "emailInvalid": "Please enter a valid email",
+      "loadError": "Failed to load profile",
+      "saveError": "Failed to save profile"
+    }
+  },
+  "footer": {
+    "description": "Platform for helping homeless dogs. Register, add dogs, make donations and help our four-legged friends find a home.",
+    "navigation": "Navigation",
+    "home": "Home",
+    "dogs": "Dogs",
+    "register": "Register",
+    "donations": "Donations",
+    "goals": "Goals",
+    "add": "Add",
+    "addDog": "Add Dog",
+    "addPhoto": "Add Photo",
+    "addStory": "Add Story",
+    "addHistory": "Add History",
+    "contacts": "Contacts",
+    "rights": "All rights reserved."
+  },
+  "donations": {
+    "title": "💝 Donations",
+    "back": "← Back",
+    "comingSoon": "The donations page will be implemented later"
+  },
+  "goals": {
+    "title": "🎯 Goals",
+    "back": "← Back",
+    "comingSoon": "The goals page will be implemented later"
+  },
+  "common": {
+    "back": "← Back",
+    "loading": "Loading...",
+    "error": "An error occurred"
+  },
+  "addDog": {
+    "title": "Add a Dog",
+    "subtitle": "Fill in the information about the dog you want to add",
+    "name": "Dog Name",
+    "namePlaceholder": "Buddy",
+    "breed": "Breed",
+    "breedPlaceholder": "Labrador",
+    "age": "Age",
+    "agePlaceholder": "3",
+    "description": "Description",
+    "descriptionPlaceholder": "Friendly dog, loves to play...",
+    "imageUrl": "Image URL",
+    "imageUrlPlaceholder": "https://example.com/image.jpg",
+    "uploadImage": "Upload Image",
+    "or": "or",
+    "deleteImage": "Delete Image",
+    "uploadHint": "Upload image or enter URL",
+    "shelter": "Shelter (optional)",
+    "privatePerson": "Private Person (optional)",
+    "notSelected": "Not selected",
+    "submit": "Add Dog",
+    "submitting": "Adding...",
+    "success": "Dog successfully added!",
+    "errors": {
+      "nameRequired": "Dog name is required",
+      "breedRequired": "Please select a breed from the list",
+      "ageInvalid": "Age must be between 0 and 30",
+      "general": "An error occurred while adding the dog"
+    }
+  },
+  "dogDetail": {
+    "back": "Back to list",
+    "about": "About the dog",
+    "age": "Age",
+    "donated": "Raised",
+    "status": {
+      "active": "Active",
+      "completed": "Found family",
+      "archived": "Archived"
+    },
+    "helpDog": "Help the dog",
+    "helpDescription": "Your support will help provide {name} with everything they need",
+    "actions": "Actions",
+    "share": "Share",
+    "shareTitle": "Share",
+    "notFound": "Dog not found",
+    "notFoundDescription": "Unfortunately, we couldn't find this dog"
+  },
+  "donations": {
+    "title": "💝 Donations",
+    "back": "← Back",
+    "comingSoon": "The donations page will be implemented later",
+    "supportFriends": "Support our four-legged friends",
+    "totalRaised": "Total raised",
+    "recentDonations": "Recent donations",
+    "makeDonation": "Make a donation",
+    "needDog": "You need to specify a dog to create a donation",
+    "amount": "Amount (₽)",
+    "amountPlaceholder": "1000",
+    "yourName": "Your name",
+    "namePlaceholder": "John Doe",
+    "email": "Email",
+    "emailPlaceholder": "john@example.com",
+    "message": "Message",
+    "messagePlaceholder": "Wishing health and happiness!",
+    "anonymous": "Anonymous donation",
+    "submit": "Donate 💝",
+    "submitting": "Submitting...",
+    "success": "Thank you for your donation! 💝",
+    "noDonations": "No donations yet",
+    "beFirst": "Be the first!",
+    "anonymousDonor": "Anonymous donor",
+    "errors": {
+      "needDog": "You need to specify a dog for the donation",
+      "minAmount": "Minimum donation amount: 0.01 ₽",
+      "general": "Error creating donation"
+    }
+  },
+  "stories": {
+    "title": "📖 Stories",
+    "back": "Back to profile",
+    "followLife": "Follow {name}'s life through stories",
+    "addStory": "Add story",
+    "noStories": "No stories yet",
+    "beFirst": "Be the first to share a story about {name}!",
+    "addFirst": "Add first story",
+    "notFound": "Dog not found"
+  },
+  "photos": {
+    "title": "📸 Photos",
+    "back": "Back to profile",
+    "gallery": "{name}'s photo gallery",
+    "addPhoto": "Add photo",
+    "noPhotos": "No photos yet",
+    "beFirst": "Be the first to add a photo of {name}!",
+    "addFirst": "Add first photo",
+    "notFound": "Dog not found"
+  },
+  "dogs": {
+    "noDogs": "No dogs found",
+    "noResults": "Nothing found",
+    "tryDifferentSearch": "Try changing your search query",
+    "addFirstDog": "Be the first to add a dog!",
+    "viewMore": "View More →",
+    "selectBreed": "Select a breed from the list"
+  },
+  "common": {
+    "back": "← Back",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "year": "year",
+    "years2": "years",
+    "years": "years",
+    "viewMore": "View More →"
+  },
+  "addPhoto": {
+    "title": "Add Photo",
+    "subtitle": "Share a photo of the dog",
+    "selectDog": "Select a dog",
+    "selectDogPlaceholder": "Select a dog",
+    "uploadImage": "Upload image",
+    "imageUrl": "Image URL",
+    "imageUrlPlaceholder": "https://example.com/photo.jpg",
+    "deleteImage": "Delete image",
+    "uploadHint": "Upload image or enter URL",
+    "caption": "Photo caption",
+    "captionPlaceholder": "My favorite dog on a walk",
+    "location": "Location",
+    "locationPlaceholder": "Moscow, Gorky Park",
+    "submit": "Add Photo",
+    "submitting": "Adding...",
+    "success": "Photo successfully added!",
+    "errors": {
+      "dogRequired": "You need to select a dog",
+      "imageRequired": "You need to specify an image",
+      "invalidFile": "Please select an image",
+      "fileTooLarge": "File size should not exceed 5 MB",
+      "uploadError": "Error uploading image",
+      "general": "An error occurred while adding the photo"
+    }
+  }
+}
+

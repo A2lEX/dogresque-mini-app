@@ -1,0 +1,1834 @@
+[
+  {
+    "nameEn": "Affenpinscher",
+    "nameRu": "Аффенпинчер"
+  },
+  {
+    "nameEn": "Afghan Hound",
+    "nameRu": "Афганская борзая"
+  },
+  {
+    "nameEn": "Aidi",
+    "nameRu": "Аиди"
+  },
+  {
+    "nameEn": "Airedale Terrier",
+    "nameRu": "Эрдельтерьер"
+  },
+  {
+    "nameEn": "Akbash",
+    "nameRu": "Акбаш"
+  },
+  {
+    "nameEn": "Akita",
+    "nameRu": "Акита-ину"
+  },
+  {
+    "nameEn": "Akita Inu",
+    "nameRu": "Акита-ину"
+  },
+  {
+    "nameEn": "Alano Espanol",
+    "nameRu": "Алано эспаньол"
+  },
+  {
+    "nameEn": "Alapaha Blue Blood Bulldog",
+    "nameRu": "Алапаха блю блад бульдог"
+  },
+  {
+    "nameEn": "Alaskan Husky",
+    "nameRu": "Аляскинский хаски"
+  },
+  {
+    "nameEn": "Alaskan Klee Kai",
+    "nameRu": "Аляскинский кли-кай"
+  },
+  {
+    "nameEn": "Alaskan Malamute",
+    "nameRu": "Аляскинский маламут"
+  },
+  {
+    "nameEn": "Alpine Dachsbracke",
+    "nameRu": "Альпийская таксообразная гончая"
+  },
+  {
+    "nameEn": "American Bulldog",
+    "nameRu": "Американский бульдог"
+  },
+  {
+    "nameEn": "American Bully",
+    "nameRu": "Американский булли"
+  },
+  {
+    "nameEn": "American Cocker Spaniel",
+    "nameRu": "Американский кокер-спаниель"
+  },
+  {
+    "nameEn": "American English Coonhound",
+    "nameRu": "Американский английский кунхаунд"
+  },
+  {
+    "nameEn": "American Eskimo Dog",
+    "nameRu": "Американская эскимосская собака"
+  },
+  {
+    "nameEn": "American Foxhound",
+    "nameRu": "Американский фоксхаунд"
+  },
+  {
+    "nameEn": "American Hairless Terrier",
+    "nameRu": "Американский голый терьер"
+  },
+  {
+    "nameEn": "American Leopard Hound",
+    "nameRu": "Американский леопардовый хунд"
+  },
+  {
+    "nameEn": "American Pit Bull Terrier",
+    "nameRu": "Американский питбультерьер"
+  },
+  {
+    "nameEn": "American Staffordshire Terrier",
+    "nameRu": "Американский стаффордширский терьер"
+  },
+  {
+    "nameEn": "American Water Spaniel",
+    "nameRu": "Американский водяной спаниель"
+  },
+  {
+    "nameEn": "Anatolian Shepherd",
+    "nameRu": "Анатолийская овчарка"
+  },
+  {
+    "nameEn": "Anatolian Shepherd Dog",
+    "nameRu": "Анатолийская овчарка"
+  },
+  {
+    "nameEn": "Andalusian Hound",
+    "nameRu": "Андалузская гончая"
+  },
+  {
+    "nameEn": "Appenzeller Sennenhund",
+    "nameRu": "Аппенцеллер зенненхунд"
+  },
+  {
+    "nameEn": "Argentine Dogo",
+    "nameRu": "Аргентинский дог"
+  },
+  {
+    "nameEn": "Ariegeois",
+    "nameRu": "Арьежуа"
+  },
+  {
+    "nameEn": "Artois Hound",
+    "nameRu": "Артуа гончая"
+  },
+  {
+    "nameEn": "Australian Cattle Dog",
+    "nameRu": "Австралийская пастушья собака"
+  },
+  {
+    "nameEn": "Australian Dingo",
+    "nameRu": "Австралийский динго"
+  },
+  {
+    "nameEn": "Australian Kelpie",
+    "nameRu": "Австралийский келпи"
+  },
+  {
+    "nameEn": "Australian Shepherd",
+    "nameRu": "Австралийская овчарка"
+  },
+  {
+    "nameEn": "Australian Silky Terrier",
+    "nameRu": "Австралийский шелковистый терьер"
+  },
+  {
+    "nameEn": "Australian Terrier",
+    "nameRu": "Австралийский терьер"
+  },
+  {
+    "nameEn": "Austrian Black and Tan Hound",
+    "nameRu": "Австрийская черно-подпалая гончая"
+  },
+  {
+    "nameEn": "Austrian Pinscher",
+    "nameRu": "Австрийский пинчер"
+  },
+  {
+    "nameEn": "Azawakh",
+    "nameRu": "Азавак"
+  },
+  {
+    "nameEn": "Bakharwal Dog",
+    "nameRu": "Бахарвал"
+  },
+  {
+    "nameEn": "Banter Bulldogge",
+    "nameRu": "Бантер бульдог"
+  },
+  {
+    "nameEn": "Barbet",
+    "nameRu": "Барбет"
+  },
+  {
+    "nameEn": "Basenji",
+    "nameRu": "Басенджи"
+  },
+  {
+    "nameEn": "Basset Artesien Normand",
+    "nameRu": "Артезиано-нормандский бассет"
+  },
+  {
+    "nameEn": "Basset Bleu de Gascogne",
+    "nameRu": "Голубой гасконский бассет"
+  },
+  {
+    "nameEn": "Basset Fauve de Bretagne",
+    "nameRu": "Рыжий бретонский бассет"
+  },
+  {
+    "nameEn": "Basset Hound",
+    "nameRu": "Бассет-хаунд"
+  },
+  {
+    "nameEn": "Bavarian Mountain Hound",
+    "nameRu": "Баварская горная гончая"
+  },
+  {
+    "nameEn": "Bavarian Mountain Scent Hound",
+    "nameRu": "Баварская горная гончая"
+  },
+  {
+    "nameEn": "Beagle",
+    "nameRu": "Бигль"
+  },
+  {
+    "nameEn": "Beagle Harrier",
+    "nameRu": "Бигль-харьер"
+  },
+  {
+    "nameEn": "Bearded Collie",
+    "nameRu": "Бородатый колли"
+  },
+  {
+    "nameEn": "Beauceron",
+    "nameRu": "Босерон"
+  },
+  {
+    "nameEn": "Bedlington Terrier",
+    "nameRu": "Бедлингтон-терьер"
+  },
+  {
+    "nameEn": "Belgian Griffon",
+    "nameRu": "Бельгийский гриффон"
+  },
+  {
+    "nameEn": "Belgian Groenendael",
+    "nameRu": "Бельгийский грюнендаль"
+  },
+  {
+    "nameEn": "Belgian Laekenois",
+    "nameRu": "Бельгийская овчарка лакенуа"
+  },
+  {
+    "nameEn": "Belgian Malinois",
+    "nameRu": "Бельгийская овчарка малинуа"
+  },
+  {
+    "nameEn": "Belgian Sheepdog",
+    "nameRu": "Бельгийская овчарка грюнендаль"
+  },
+  {
+    "nameEn": "Belgian Shepherd Dog",
+    "nameRu": "Бельгийская овчарка"
+  },
+  {
+    "nameEn": "Belgian Tervuren",
+    "nameRu": "Бельгийская овчарка тервюрен"
+  },
+  {
+    "nameEn": "Bergamasco",
+    "nameRu": "Бергамская овчарка"
+  },
+  {
+    "nameEn": "Bergamasco Shepherd",
+    "nameRu": "Бергамская овчарка"
+  },
+  {
+    "nameEn": "Berger Blanc Suisse",
+    "nameRu": "Бергер блан сюис"
+  },
+  {
+    "nameEn": "Berger des Pyrenees",
+    "nameRu": "Пиренейская овчарка"
+  },
+  {
+    "nameEn": "Berger Picard",
+    "nameRu": "Бергер пикар"
+  },
+  {
+    "nameEn": "Bernese Hound",
+    "nameRu": "Бернская гончая"
+  },
+  {
+    "nameEn": "Bernese Mountain Dog",
+    "nameRu": "Бернский зенненхунд"
+  },
+  {
+    "nameEn": "Bichon Bolognese",
+    "nameRu": "Болоньез"
+  },
+  {
+    "nameEn": "Bichon Frise",
+    "nameRu": "Бишон фризе"
+  },
+  {
+    "nameEn": "Billy",
+    "nameRu": "Билли"
+  },
+  {
+    "nameEn": "Black and Tan Coonhound",
+    "nameRu": "Черно-подпалый кунхаунд"
+  },
+  {
+    "nameEn": "Black and Tan Terrier",
+    "nameRu": "Черно-подпалый терьер"
+  },
+  {
+    "nameEn": "Black Mouth Cur",
+    "nameRu": "Черноротый кер"
+  },
+  {
+    "nameEn": "Black Russian Terrier",
+    "nameRu": "Русский черный терьер"
+  },
+  {
+    "nameEn": "Bloodhound",
+    "nameRu": "Бладхаунд"
+  },
+  {
+    "nameEn": "Blue Lacy",
+    "nameRu": "Блю лейси"
+  },
+  {
+    "nameEn": "Bluetick Coonhound",
+    "nameRu": "Блютик кунхаунд"
+  },
+  {
+    "nameEn": "Boerboel",
+    "nameRu": "Бурбуль"
+  },
+  {
+    "nameEn": "Bolognese",
+    "nameRu": "Болоньез"
+  },
+  {
+    "nameEn": "Border Collie",
+    "nameRu": "Бордер-колли"
+  },
+  {
+    "nameEn": "Border Terrier",
+    "nameRu": "Бордер-терьер"
+  },
+  {
+    "nameEn": "Borzoi",
+    "nameRu": "Русская псовая борзая"
+  },
+  {
+    "nameEn": "Bosnian Broken-haired Hound",
+    "nameRu": "Боснийская жесткошерстная гончая"
+  },
+  {
+    "nameEn": "Boston Terrier",
+    "nameRu": "Бостон-терьер"
+  },
+  {
+    "nameEn": "Bouvier des Flandres",
+    "nameRu": "Фландрский бувье"
+  },
+  {
+    "nameEn": "Boxer",
+    "nameRu": "Боксер"
+  },
+  {
+    "nameEn": "Boykin Spaniel",
+    "nameRu": "Бойкин-спаниель"
+  },
+  {
+    "nameEn": "Bracco Italiano",
+    "nameRu": "Итальянский бракк"
+  },
+  {
+    "nameEn": "Brandlbracke",
+    "nameRu": "Брандлбракк"
+  },
+  {
+    "nameEn": "Braque du Bourbonnais",
+    "nameRu": "Бракк дю Бурбонне"
+  },
+  {
+    "nameEn": "Braque Francais",
+    "nameRu": "Французский бракк"
+  },
+  {
+    "nameEn": "Briard",
+    "nameRu": "Бриар"
+  },
+  {
+    "nameEn": "Briquet Griffon Vendeen",
+    "nameRu": "Брикет вандейский гриффон"
+  },
+  {
+    "nameEn": "Brittany",
+    "nameRu": "Бретонский эпаньоль"
+  },
+  {
+    "nameEn": "Broholmer",
+    "nameRu": "Брохольмер"
+  },
+  {
+    "nameEn": "Brussels Griffon",
+    "nameRu": "Брюссельский гриффон"
+  },
+  {
+    "nameEn": "Bull Terrier",
+    "nameRu": "Бультерьер"
+  },
+  {
+    "nameEn": "Bulldog",
+    "nameRu": "Бульдог"
+  },
+  {
+    "nameEn": "Bullmastiff",
+    "nameRu": "Бульмастиф"
+  },
+  {
+    "nameEn": "Ca de Bou",
+    "nameRu": "Ка де бо"
+  },
+  {
+    "nameEn": "Cairn Terrier",
+    "nameRu": "Керн-терьер"
+  },
+  {
+    "nameEn": "Canaan Dog",
+    "nameRu": "Ханаанская собака"
+  },
+  {
+    "nameEn": "Canadian Eskimo Dog",
+    "nameRu": "Канадская эскимосская собака"
+  },
+  {
+    "nameEn": "Canarian Warren Hound",
+    "nameRu": "Канарская борзая"
+  },
+  {
+    "nameEn": "Cane Corso",
+    "nameRu": "Кане-корсо"
+  },
+  {
+    "nameEn": "Cane da Pastore Maremmano-Abruzzese",
+    "nameRu": "Мареммано-абруццкая овчарка"
+  },
+  {
+    "nameEn": "Cane Lupino del Gigante",
+    "nameRu": "Кане лупино дель джиганте"
+  },
+  {
+    "nameEn": "Cardigan Welsh Corgi",
+    "nameRu": "Вельш-корги кардиган"
+  },
+  {
+    "nameEn": "Carolina Dog",
+    "nameRu": "Каролинская собака"
+  },
+  {
+    "nameEn": "Catahoula Bulldog",
+    "nameRu": "Катахула бульдог"
+  },
+  {
+    "nameEn": "Catahoula Leopard Dog",
+    "nameRu": "Катахула леопардовая собака"
+  },
+  {
+    "nameEn": "Catalan Sheepdog",
+    "nameRu": "Каталонская овчарка"
+  },
+  {
+    "nameEn": "Caucasian Shepherd",
+    "nameRu": "Кавказская овчарка"
+  },
+  {
+    "nameEn": "Caucasian Shepherd Dog",
+    "nameRu": "Кавказская овчарка"
+  },
+  {
+    "nameEn": "Cavalier King Charles Spaniel",
+    "nameRu": "Кавалер-кинг-чарльз-спаниель"
+  },
+  {
+    "nameEn": "Central Asian Shepherd",
+    "nameRu": "Среднеазиатская овчарка"
+  },
+  {
+    "nameEn": "Central Asian Shepherd Dog",
+    "nameRu": "Среднеазиатская овчарка"
+  },
+  {
+    "nameEn": "Cesky Terrier",
+    "nameRu": "Чешский терьер"
+  },
+  {
+    "nameEn": "Chart Polski",
+    "nameRu": "Польская борзая"
+  },
+  {
+    "nameEn": "Chesapeake Bay Retriever",
+    "nameRu": "Чесапик-бей-ретривер"
+  },
+  {
+    "nameEn": "Chihuahua",
+    "nameRu": "Чихуахуа"
+  },
+  {
+    "nameEn": "Chinese Crested",
+    "nameRu": "Китайская хохлатая"
+  },
+  {
+    "nameEn": "Chinese Shar-Pei",
+    "nameRu": "Шарпей"
+  },
+  {
+    "nameEn": "Chinook",
+    "nameRu": "Чинук"
+  },
+  {
+    "nameEn": "Chow Chow",
+    "nameRu": "Чау-чау"
+  },
+  {
+    "nameEn": "Chukotka Sled Dog",
+    "nameRu": "Чукотская ездовая собака"
+  },
+  {
+    "nameEn": "Cirneco dell Etna",
+    "nameRu": "Чирнеко дель Этна"
+  },
+  {
+    "nameEn": "Cirneco dell'Etna",
+    "nameRu": "Чирнеко дель Этна"
+  },
+  {
+    "nameEn": "Clumber Spaniel",
+    "nameRu": "Кламбер-спаниель"
+  },
+  {
+    "nameEn": "Cocker Spaniel",
+    "nameRu": "Кокер-спаниель"
+  },
+  {
+    "nameEn": "Collie",
+    "nameRu": "Колли"
+  },
+  {
+    "nameEn": "Collie Rough",
+    "nameRu": "Колли длинношерстный"
+  },
+  {
+    "nameEn": "Collie Smooth",
+    "nameRu": "Колли короткошерстный"
+  },
+  {
+    "nameEn": "Continental Bulldog",
+    "nameRu": "Континентальный бульдог"
+  },
+  {
+    "nameEn": "Continental Toy Spaniel",
+    "nameRu": "Континентальный той-спаниель"
+  },
+  {
+    "nameEn": "Coton de Tulear",
+    "nameRu": "Котон де тулеар"
+  },
+  {
+    "nameEn": "Curly-Coated Retriever",
+    "nameRu": "Курчавошерстный ретривер"
+  },
+  {
+    "nameEn": "Czechoslovakian Wolfdog",
+    "nameRu": "Чехословацкая волчья собака"
+  },
+  {
+    "nameEn": "Dachshund",
+    "nameRu": "Такса"
+  },
+  {
+    "nameEn": "Dachshund Longhaired",
+    "nameRu": "Такса длинношерстная"
+  },
+  {
+    "nameEn": "Dachshund Miniature",
+    "nameRu": "Такса миниатюрная"
+  },
+  {
+    "nameEn": "Dachshund Rabbit",
+    "nameRu": "Такса кроличья"
+  },
+  {
+    "nameEn": "Dachshund Smooth",
+    "nameRu": "Такса гладкошерстная"
+  },
+  {
+    "nameEn": "Dachshund Standard",
+    "nameRu": "Такса стандартная"
+  },
+  {
+    "nameEn": "Dachshund Wirehaired",
+    "nameRu": "Такса жесткошерстная"
+  },
+  {
+    "nameEn": "Dalmatian",
+    "nameRu": "Далматин"
+  },
+  {
+    "nameEn": "Dandie Dinmont Terrier",
+    "nameRu": "Денди-динмонт-терьер"
+  },
+  {
+    "nameEn": "Dingo",
+    "nameRu": "Динго"
+  },
+  {
+    "nameEn": "Doberman",
+    "nameRu": "Доберман"
+  },
+  {
+    "nameEn": "Doberman Pinscher",
+    "nameRu": "Доберман"
+  },
+  {
+    "nameEn": "Dogo Argentino",
+    "nameRu": "Аргентинский дог"
+  },
+  {
+    "nameEn": "Dogo Canario",
+    "nameRu": "Канарский дог"
+  },
+  {
+    "nameEn": "Dogo Sardesco",
+    "nameRu": "Сардинский дог"
+  },
+  {
+    "nameEn": "Dogue de Bordeaux",
+    "nameRu": "Бордосский дог"
+  },
+  {
+    "nameEn": "Drever",
+    "nameRu": "Древер"
+  },
+  {
+    "nameEn": "Dutch Shepherd",
+    "nameRu": "Голландская овчарка"
+  },
+  {
+    "nameEn": "Dutch Smoushond",
+    "nameRu": "Голландский смоусхонд"
+  },
+  {
+    "nameEn": "East European Shepherd",
+    "nameRu": "Восточноевропейская овчарка"
+  },
+  {
+    "nameEn": "East Siberian Laika",
+    "nameRu": "Восточно-сибирская лайка"
+  },
+  {
+    "nameEn": "English Bulldog",
+    "nameRu": "Английский бульдог"
+  },
+  {
+    "nameEn": "English Cocker Spaniel",
+    "nameRu": "Английский кокер-спаниель"
+  },
+  {
+    "nameEn": "English Coonhound",
+    "nameRu": "Английский кунхаунд"
+  },
+  {
+    "nameEn": "English Foxhound",
+    "nameRu": "Английский фоксхаунд"
+  },
+  {
+    "nameEn": "English Mastiff",
+    "nameRu": "Английский мастиф"
+  },
+  {
+    "nameEn": "English Pointer",
+    "nameRu": "Английский пойнтер"
+  },
+  {
+    "nameEn": "English Setter",
+    "nameRu": "Английский сеттер"
+  },
+  {
+    "nameEn": "English Shepherd",
+    "nameRu": "Английская овчарка"
+  },
+  {
+    "nameEn": "English Springer Spaniel",
+    "nameRu": "Английский спрингер-спаниель"
+  },
+  {
+    "nameEn": "English Toy Spaniel",
+    "nameRu": "Английский той-спаниель"
+  },
+  {
+    "nameEn": "English Toy Terrier",
+    "nameRu": "Английский той-терьер"
+  },
+  {
+    "nameEn": "Entlebucher Mountain Dog",
+    "nameRu": "Энтлебухер зенненхунд"
+  },
+  {
+    "nameEn": "Entlebucher Sennenhund",
+    "nameRu": "Энтлебухер зенненхунд"
+  },
+  {
+    "nameEn": "Eurasier",
+    "nameRu": "Евразиер"
+  },
+  {
+    "nameEn": "Field Spaniel",
+    "nameRu": "Филд-спаниель"
+  },
+  {
+    "nameEn": "Fila Brasileiro",
+    "nameRu": "Фила бразилейро"
+  },
+  {
+    "nameEn": "Finnish Hound",
+    "nameRu": "Финская гончая"
+  },
+  {
+    "nameEn": "Finnish Lapphund",
+    "nameRu": "Финский лаппхунд"
+  },
+  {
+    "nameEn": "Finnish Spitz",
+    "nameRu": "Финский шпиц"
+  },
+  {
+    "nameEn": "Flat-Coated Retriever",
+    "nameRu": "Прямошерстный ретривер"
+  },
+  {
+    "nameEn": "French Bulldog",
+    "nameRu": "Французский бульдог"
+  },
+  {
+    "nameEn": "French Mastiff",
+    "nameRu": "Французский мастиф"
+  },
+  {
+    "nameEn": "French Spaniel",
+    "nameRu": "Французский спаниель"
+  },
+  {
+    "nameEn": "French Tricolour Hound",
+    "nameRu": "Французская трехцветная гончая"
+  },
+  {
+    "nameEn": "French White and Black Hound",
+    "nameRu": "Французская бело-черная гончая"
+  },
+  {
+    "nameEn": "French White and Orange Hound",
+    "nameRu": "Французская бело-оранжевая гончая"
+  },
+  {
+    "nameEn": "Gascon Saintongeois",
+    "nameRu": "Гасконский сентонж"
+  },
+  {
+    "nameEn": "German Bracke",
+    "nameRu": "Немецкий бракк"
+  },
+  {
+    "nameEn": "German Hound",
+    "nameRu": "Немецкая гончая"
+  },
+  {
+    "nameEn": "German Hunting Terrier",
+    "nameRu": "Немецкий охотничий терьер"
+  },
+  {
+    "nameEn": "German Pinscher",
+    "nameRu": "Немецкий пинчер"
+  },
+  {
+    "nameEn": "German Shepherd",
+    "nameRu": "Немецкая овчарка"
+  },
+  {
+    "nameEn": "German Shepherd Dog",
+    "nameRu": "Немецкая овчарка"
+  },
+  {
+    "nameEn": "German Shorthaired Pointer",
+    "nameRu": "Немецкий курцхаар"
+  },
+  {
+    "nameEn": "German Spitz",
+    "nameRu": "Немецкий шпиц"
+  },
+  {
+    "nameEn": "German Wirehaired Pointer",
+    "nameRu": "Немецкий жесткошерстный пойнтер"
+  },
+  {
+    "nameEn": "Giant Schnauzer",
+    "nameRu": "Ризеншнауцер"
+  },
+  {
+    "nameEn": "Glen of Imaal Terrier",
+    "nameRu": "Глен оф Имаал терьер"
+  },
+  {
+    "nameEn": "Golden Retriever",
+    "nameRu": "Золотистый ретривер"
+  },
+  {
+    "nameEn": "Gordon Setter",
+    "nameRu": "Гордон-сеттер"
+  },
+  {
+    "nameEn": "Gos d Atura",
+    "nameRu": "Гос д атура"
+  },
+  {
+    "nameEn": "Gos d'Atura",
+    "nameRu": "Гос д'атура"
+  },
+  {
+    "nameEn": "Grand Basset Griffon Vendeen",
+    "nameRu": "Большой вандейский бассет-гриффон"
+  },
+  {
+    "nameEn": "Grand Bleu de Gascogne",
+    "nameRu": "Большой голубой гасконский гончий"
+  },
+  {
+    "nameEn": "Grand Gascon Saintongeois",
+    "nameRu": "Большой гасконский сентонж"
+  },
+  {
+    "nameEn": "Grand Griffon Vendeen",
+    "nameRu": "Большой вандейский гриффон"
+  },
+  {
+    "nameEn": "Great Dane",
+    "nameRu": "Немецкий дог"
+  },
+  {
+    "nameEn": "Great Pyrenees",
+    "nameRu": "Пиренейская горная собака"
+  },
+  {
+    "nameEn": "Greater Swiss Mountain Dog",
+    "nameRu": "Большой швейцарский зенненхунд"
+  },
+  {
+    "nameEn": "Greek Hound",
+    "nameRu": "Греческая гончая"
+  },
+  {
+    "nameEn": "Greenland Dog",
+    "nameRu": "Гренландская собака"
+  },
+  {
+    "nameEn": "Greyhound",
+    "nameRu": "Грейхаунд"
+  },
+  {
+    "nameEn": "Griffon Nivernais",
+    "nameRu": "Гриффон ниверне"
+  },
+  {
+    "nameEn": "Groenendael",
+    "nameRu": "Грюнендаль"
+  },
+  {
+    "nameEn": "Halden Hound",
+    "nameRu": "Халденская гончая"
+  },
+  {
+    "nameEn": "Hamiltonstovare",
+    "nameRu": "Гамильтонстёваре"
+  },
+  {
+    "nameEn": "Hanoverian Scenthound",
+    "nameRu": "Ганноверская гончая"
+  },
+  {
+    "nameEn": "Harrier",
+    "nameRu": "Харьер"
+  },
+  {
+    "nameEn": "Havanese",
+    "nameRu": "Гаванский бишон"
+  },
+  {
+    "nameEn": "Hovawart",
+    "nameRu": "Ховаварт"
+  },
+  {
+    "nameEn": "Hungarian Hound",
+    "nameRu": "Венгерская гончая"
+  },
+  {
+    "nameEn": "Hygen Hound",
+    "nameRu": "Хюген гончая"
+  },
+  {
+    "nameEn": "Ibizan Hound",
+    "nameRu": "Ивисская борзая"
+  },
+  {
+    "nameEn": "Icelandic Sheepdog",
+    "nameRu": "Исландская овчарка"
+  },
+  {
+    "nameEn": "Indian Pariah Dog",
+    "nameRu": "Индийская пария"
+  },
+  {
+    "nameEn": "Irish Red and White Setter",
+    "nameRu": "Ирландский красно-белый сеттер"
+  },
+  {
+    "nameEn": "Irish Setter",
+    "nameRu": "Ирландский сеттер"
+  },
+  {
+    "nameEn": "Irish Soft Coated Wheaten Terrier",
+    "nameRu": "Ирландский мягкошерстный пшеничный терьер"
+  },
+  {
+    "nameEn": "Irish Terrier",
+    "nameRu": "Ирландский терьер"
+  },
+  {
+    "nameEn": "Irish Water Spaniel",
+    "nameRu": "Ирландский водяной спаниель"
+  },
+  {
+    "nameEn": "Irish Wolfhound",
+    "nameRu": "Ирландский волкодав"
+  },
+  {
+    "nameEn": "Istrian Coarse-haired Hound",
+    "nameRu": "Истрийская жесткошерстная гончая"
+  },
+  {
+    "nameEn": "Istrian Short-haired Hound",
+    "nameRu": "Истрийская короткошерстная гончая"
+  },
+  {
+    "nameEn": "Italian Greyhound",
+    "nameRu": "Итальянская борзая"
+  },
+  {
+    "nameEn": "Italian Rough-haired Segugio",
+    "nameRu": "Итальянская жесткошерстная гончая"
+  },
+  {
+    "nameEn": "Italian Short-haired Segugio",
+    "nameRu": "Итальянская короткошерстная гончая"
+  },
+  {
+    "nameEn": "Jack Russell Terrier",
+    "nameRu": "Джек-рассел-терьер"
+  },
+  {
+    "nameEn": "Japanese Chin",
+    "nameRu": "Японский хин"
+  },
+  {
+    "nameEn": "Japanese Spaniel",
+    "nameRu": "Японский спаниель"
+  },
+  {
+    "nameEn": "Japanese Spitz",
+    "nameRu": "Японский шпиц"
+  },
+  {
+    "nameEn": "Jura Hound",
+    "nameRu": "Юрская гончая"
+  },
+  {
+    "nameEn": "Kai Ken",
+    "nameRu": "Кай кен"
+  },
+  {
+    "nameEn": "Kamchatka Sled Dog",
+    "nameRu": "Камчатская ездовая собака"
+  },
+  {
+    "nameEn": "Karelian Bear Dog",
+    "nameRu": "Карельская медвежья собака"
+  },
+  {
+    "nameEn": "Karelo-Finnish Laika",
+    "nameRu": "Карело-финская лайка"
+  },
+  {
+    "nameEn": "Keeshond",
+    "nameRu": "Кеесхонд"
+  },
+  {
+    "nameEn": "Kemmer Stock Mountain Cur",
+    "nameRu": "Кеммер сток горный кер"
+  },
+  {
+    "nameEn": "Kerry Blue Terrier",
+    "nameRu": "Керри-блю-терьер"
+  },
+  {
+    "nameEn": "King Charles Spaniel",
+    "nameRu": "Кинг-чарльз-спаниель"
+  },
+  {
+    "nameEn": "Kishu Ken",
+    "nameRu": "Кисю кен"
+  },
+  {
+    "nameEn": "Komondor",
+    "nameRu": "Комондор"
+  },
+  {
+    "nameEn": "Kooikerhondje",
+    "nameRu": "Коикерхондье"
+  },
+  {
+    "nameEn": "Kromfohrlander",
+    "nameRu": "Кромфорлендер"
+  },
+  {
+    "nameEn": "Kuvasz",
+    "nameRu": "Кувас"
+  },
+  {
+    "nameEn": "Labrador Retriever",
+    "nameRu": "Лабрадор-ретривер"
+  },
+  {
+    "nameEn": "Laekenois",
+    "nameRu": "Лакенуа"
+  },
+  {
+    "nameEn": "Lagotto Romagnolo",
+    "nameRu": "Лагото романьоло"
+  },
+  {
+    "nameEn": "Lakeland Terrier",
+    "nameRu": "Лейкленд-терьер"
+  },
+  {
+    "nameEn": "Lancashire Heeler",
+    "nameRu": "Ланкаширский хилер"
+  },
+  {
+    "nameEn": "Landseer",
+    "nameRu": "Ландсир"
+  },
+  {
+    "nameEn": "Lapponian Herder",
+    "nameRu": "Лаппонский пастух"
+  },
+  {
+    "nameEn": "Large Munsterlander",
+    "nameRu": "Большой мюнстерлендер"
+  },
+  {
+    "nameEn": "Leavitt Bulldog",
+    "nameRu": "Левитт бульдог"
+  },
+  {
+    "nameEn": "Leonberger",
+    "nameRu": "Леонбергер"
+  },
+  {
+    "nameEn": "Leopard Cur",
+    "nameRu": "Леопардовый кер"
+  },
+  {
+    "nameEn": "Lhasa Apso",
+    "nameRu": "Лхасский апсо"
+  },
+  {
+    "nameEn": "Louisiana Catahoula Leopard Dog",
+    "nameRu": "Луизианская катахула леопардовая собака"
+  },
+  {
+    "nameEn": "Lowchen",
+    "nameRu": "Левхен"
+  },
+  {
+    "nameEn": "Löwchen",
+    "nameRu": "Левхен"
+  },
+  {
+    "nameEn": "Lucerne Hound",
+    "nameRu": "Люцернская гончая"
+  },
+  {
+    "nameEn": "Lundehund",
+    "nameRu": "Лундехунд"
+  },
+  {
+    "nameEn": "Lupo Italiano",
+    "nameRu": "Лупо итальяно"
+  },
+  {
+    "nameEn": "Majorca Hound",
+    "nameRu": "Майоркская гончая"
+  },
+  {
+    "nameEn": "Malinois",
+    "nameRu": "Малинуа"
+  },
+  {
+    "nameEn": "Maltese",
+    "nameRu": "Мальтийская болонка"
+  },
+  {
+    "nameEn": "Manchester Terrier",
+    "nameRu": "Манчестер-терьер"
+  },
+  {
+    "nameEn": "Maremma Sheepdog",
+    "nameRu": "Мареммано-абруццкая овчарка"
+  },
+  {
+    "nameEn": "Mastiff",
+    "nameRu": "Мастиф"
+  },
+  {
+    "nameEn": "McNab",
+    "nameRu": "Макнаб"
+  },
+  {
+    "nameEn": "Medium Griffon Vendeen",
+    "nameRu": "Средний вандейский гриффон"
+  },
+  {
+    "nameEn": "Miniature Bull Terrier",
+    "nameRu": "Миниатюрный бультерьер"
+  },
+  {
+    "nameEn": "Miniature Pinscher",
+    "nameRu": "Цвергпинчер"
+  },
+  {
+    "nameEn": "Miniature Schnauzer",
+    "nameRu": "Миниатюрный шнауцер"
+  },
+  {
+    "nameEn": "Mixed Breed",
+    "nameRu": "Метис"
+  },
+  {
+    "nameEn": "Montenegrin Mountain Hound",
+    "nameRu": "Черногорская горная гончая"
+  },
+  {
+    "nameEn": "Moscow Watchdog",
+    "nameRu": "Московская сторожевая"
+  },
+  {
+    "nameEn": "Moscow Water Dog",
+    "nameRu": "Московский водолаз"
+  },
+  {
+    "nameEn": "Mountain Cur",
+    "nameRu": "Горный кер"
+  },
+  {
+    "nameEn": "Mountain Feist",
+    "nameRu": "Горный файст"
+  },
+  {
+    "nameEn": "Mudi",
+    "nameRu": "Муди"
+  },
+  {
+    "nameEn": "Neapolitan Mastiff",
+    "nameRu": "Неаполитанский мастиф"
+  },
+  {
+    "nameEn": "Nenets Herding Laika",
+    "nameRu": "Ненецкая лайка"
+  },
+  {
+    "nameEn": "New Guinea Singing Dog",
+    "nameRu": "Новогвинейская поющая собака"
+  },
+  {
+    "nameEn": "Newfoundland",
+    "nameRu": "Ньюфаундленд"
+  },
+  {
+    "nameEn": "Norfolk Terrier",
+    "nameRu": "Норфолк-терьер"
+  },
+  {
+    "nameEn": "Norwegian Buhund",
+    "nameRu": "Норвежский бухунд"
+  },
+  {
+    "nameEn": "Norwegian Elkhound",
+    "nameRu": "Норвежский элкхаунд"
+  },
+  {
+    "nameEn": "Norwegian Hound",
+    "nameRu": "Норвежская гончая"
+  },
+  {
+    "nameEn": "Norwegian Lundehund",
+    "nameRu": "Норвежский лундехунд"
+  },
+  {
+    "nameEn": "Norwich Terrier",
+    "nameRu": "Норидж-терьер"
+  },
+  {
+    "nameEn": "Nova Scotia Duck Tolling Retriever",
+    "nameRu": "Новошотландский ретривер"
+  },
+  {
+    "nameEn": "Old English Bulldog",
+    "nameRu": "Староанглийский бульдог"
+  },
+  {
+    "nameEn": "Old English Sheepdog",
+    "nameRu": "Бобтейл"
+  },
+  {
+    "nameEn": "Olde Boston Bulldogge",
+    "nameRu": "Старый бостонский бульдог"
+  },
+  {
+    "nameEn": "Olde English Bulldogge",
+    "nameRu": "Староанглийский бульдог"
+  },
+  {
+    "nameEn": "Otterhound",
+    "nameRu": "Оттерхаунд"
+  },
+  {
+    "nameEn": "Papillon",
+    "nameRu": "Папийон"
+  },
+  {
+    "nameEn": "Parson Russell Terrier",
+    "nameRu": "Парсон-рассел-терьер"
+  },
+  {
+    "nameEn": "Pekingese",
+    "nameRu": "Пекинес"
+  },
+  {
+    "nameEn": "Pembroke Welsh Corgi",
+    "nameRu": "Пемброк-вельш-корги"
+  },
+  {
+    "nameEn": "Perro de Presa Canario",
+    "nameRu": "Перро де преса канарио"
+  },
+  {
+    "nameEn": "Perro de Presa Mallorquin",
+    "nameRu": "Перро де преса мальоркин"
+  },
+  {
+    "nameEn": "Peruvian Inca Orchid",
+    "nameRu": "Перуанская орхидея инков"
+  },
+  {
+    "nameEn": "Petit Basset Griffon Vendeen",
+    "nameRu": "Малый вандейский бассет-гриффон"
+  },
+  {
+    "nameEn": "Petit Bleu de Gascogne",
+    "nameRu": "Малый голубой гасконский гончий"
+  },
+  {
+    "nameEn": "Petit Brabancon",
+    "nameRu": "Пти брабансон"
+  },
+  {
+    "nameEn": "Petit Gascon Saintongeois",
+    "nameRu": "Малый гасконский сентонж"
+  },
+  {
+    "nameEn": "Petit Griffon Vendeen",
+    "nameRu": "Малый вандейский гриффон"
+  },
+  {
+    "nameEn": "Phalene",
+    "nameRu": "Фален"
+  },
+  {
+    "nameEn": "Pharaoh Hound",
+    "nameRu": "Фараонова собака"
+  },
+  {
+    "nameEn": "Phu Quoc Ridgeback",
+    "nameRu": "Фукуокский риджбек"
+  },
+  {
+    "nameEn": "Picardy Shepherd",
+    "nameRu": "Пикардийская овчарка"
+  },
+  {
+    "nameEn": "Pinscher",
+    "nameRu": "Пинчер"
+  },
+  {
+    "nameEn": "Plott",
+    "nameRu": "Плотт"
+  },
+  {
+    "nameEn": "Plott Hound",
+    "nameRu": "Плотт-хаунд"
+  },
+  {
+    "nameEn": "Pointer",
+    "nameRu": "Пойнтер"
+  },
+  {
+    "nameEn": "Poitevin",
+    "nameRu": "Пуатевен"
+  },
+  {
+    "nameEn": "Polish Hound",
+    "nameRu": "Польская гончая"
+  },
+  {
+    "nameEn": "Polish Hunting Dog",
+    "nameRu": "Польская охотничья собака"
+  },
+  {
+    "nameEn": "Polish Lowland Sheepdog",
+    "nameRu": "Польская низинная овчарка"
+  },
+  {
+    "nameEn": "Polish Tatra Sheepdog",
+    "nameRu": "Польская татранская овчарка"
+  },
+  {
+    "nameEn": "Pomeranian",
+    "nameRu": "Померанский шпиц"
+  },
+  {
+    "nameEn": "Poodle",
+    "nameRu": "Пудель"
+  },
+  {
+    "nameEn": "Poodle Miniature",
+    "nameRu": "Пудель миниатюрный"
+  },
+  {
+    "nameEn": "Poodle Standard",
+    "nameRu": "Пудель стандартный"
+  },
+  {
+    "nameEn": "Poodle Toy",
+    "nameRu": "Пудель той"
+  },
+  {
+    "nameEn": "Porcelaine",
+    "nameRu": "Порселен"
+  },
+  {
+    "nameEn": "Portuguese Podengo",
+    "nameRu": "Португальский поденгу"
+  },
+  {
+    "nameEn": "Portuguese Podengo Grande",
+    "nameRu": "Большой португальский поденгу"
+  },
+  {
+    "nameEn": "Portuguese Podengo Medio",
+    "nameRu": "Средний португальский поденгу"
+  },
+  {
+    "nameEn": "Portuguese Podengo Pequeno",
+    "nameRu": "Малый португальский поденгу"
+  },
+  {
+    "nameEn": "Portuguese Sheepdog",
+    "nameRu": "Португальская овчарка"
+  },
+  {
+    "nameEn": "Portuguese Water Dog",
+    "nameRu": "Португальская водяная собака"
+  },
+  {
+    "nameEn": "Posavatz Hound",
+    "nameRu": "Посавская гончая"
+  },
+  {
+    "nameEn": "Prague Ratter",
+    "nameRu": "Пражский крысарик"
+  },
+  {
+    "nameEn": "Presa Canario",
+    "nameRu": "Канарский дог"
+  },
+  {
+    "nameEn": "Primitive Dog",
+    "nameRu": "Примитивная собака"
+  },
+  {
+    "nameEn": "Pug",
+    "nameRu": "Мопс"
+  },
+  {
+    "nameEn": "Puli",
+    "nameRu": "Пули"
+  },
+  {
+    "nameEn": "Pumi",
+    "nameRu": "Пуми"
+  },
+  {
+    "nameEn": "Pyrenean Mastiff",
+    "nameRu": "Пиренейский мастиф"
+  },
+  {
+    "nameEn": "Pyrenean Mountain Dog",
+    "nameRu": "Пиренейская горная собака"
+  },
+  {
+    "nameEn": "Pyrenean Shepherd",
+    "nameRu": "Пиренейская овчарка"
+  },
+  {
+    "nameEn": "Rat Terrier",
+    "nameRu": "Рэт-терьер"
+  },
+  {
+    "nameEn": "Redbone Coonhound",
+    "nameRu": "Редбон кунхаунд"
+  },
+  {
+    "nameEn": "Renaissance Bulldog",
+    "nameRu": "Ренессанс бульдог"
+  },
+  {
+    "nameEn": "Rhodesian Ridgeback",
+    "nameRu": "Родезийский риджбек"
+  },
+  {
+    "nameEn": "Romanian Carpathian Shepherd Dog",
+    "nameRu": "Румынская карпатская овчарка"
+  },
+  {
+    "nameEn": "Romanian Mioritic Shepherd Dog",
+    "nameRu": "Румынская миоритская овчарка"
+  },
+  {
+    "nameEn": "Rottweiler",
+    "nameRu": "Ротвейлер"
+  },
+  {
+    "nameEn": "Rough Collie",
+    "nameRu": "Длинношерстный колли"
+  },
+  {
+    "nameEn": "Russell Terrier",
+    "nameRu": "Рассел-терьер"
+  },
+  {
+    "nameEn": "Russian Black Terrier",
+    "nameRu": "Русский черный терьер"
+  },
+  {
+    "nameEn": "Russian Spaniel",
+    "nameRu": "Русский спаниель"
+  },
+  {
+    "nameEn": "Russian Toy",
+    "nameRu": "Русский той"
+  },
+  {
+    "nameEn": "Russian Toy Terrier",
+    "nameRu": "Русский той-терьер"
+  },
+  {
+    "nameEn": "Russian-European Laika",
+    "nameRu": "Русско-европейская лайка"
+  },
+  {
+    "nameEn": "Saarloos Wolfdog",
+    "nameRu": "Саарлоос вольфхонд"
+  },
+  {
+    "nameEn": "Sabueso Espanol",
+    "nameRu": "Сабуэсо эспаньол"
+  },
+  {
+    "nameEn": "Saint Bernard",
+    "nameRu": "Сенбернар"
+  },
+  {
+    "nameEn": "Sakhalin Husky",
+    "nameRu": "Сахалинский хаски"
+  },
+  {
+    "nameEn": "Saluki",
+    "nameRu": "Салюки"
+  },
+  {
+    "nameEn": "Samoyed",
+    "nameRu": "Самоед"
+  },
+  {
+    "nameEn": "Schillerstovare",
+    "nameRu": "Шиллерстёваре"
+  },
+  {
+    "nameEn": "Schipperke",
+    "nameRu": "Шипперке"
+  },
+  {
+    "nameEn": "Schnauzer",
+    "nameRu": "Шнауцер"
+  },
+  {
+    "nameEn": "Schwyz Hound",
+    "nameRu": "Швицкая гончая"
+  },
+  {
+    "nameEn": "Scottish Deerhound",
+    "nameRu": "Шотландский дирхаунд"
+  },
+  {
+    "nameEn": "Scottish Terrier",
+    "nameRu": "Скотч-терьер"
+  },
+  {
+    "nameEn": "Sealyham Terrier",
+    "nameRu": "Силихем-терьер"
+  },
+  {
+    "nameEn": "Segugio dell Appennino",
+    "nameRu": "Апеннинская гончая"
+  },
+  {
+    "nameEn": "Segugio dell'Appennino",
+    "nameRu": "Апеннинская гончая"
+  },
+  {
+    "nameEn": "Segugio Italiano",
+    "nameRu": "Итальянская гончая"
+  },
+  {
+    "nameEn": "Segugio Maremmano",
+    "nameRu": "Маремманская гончая"
+  },
+  {
+    "nameEn": "Serbian Hound",
+    "nameRu": "Сербская гончая"
+  },
+  {
+    "nameEn": "Serbian Tricolour Hound",
+    "nameRu": "Сербская трехцветная гончая"
+  },
+  {
+    "nameEn": "Shar Pei",
+    "nameRu": "Шарпей"
+  },
+  {
+    "nameEn": "Shetland Sheepdog",
+    "nameRu": "Шетлендская овчарка"
+  },
+  {
+    "nameEn": "Shiba Inu",
+    "nameRu": "Сиба-ину"
+  },
+  {
+    "nameEn": "Shih Tzu",
+    "nameRu": "Ши-тцу"
+  },
+  {
+    "nameEn": "Siberian Husky",
+    "nameRu": "Сибирский хаски"
+  },
+  {
+    "nameEn": "Silky Terrier",
+    "nameRu": "Шелковистый терьер"
+  },
+  {
+    "nameEn": "Skye Terrier",
+    "nameRu": "Скай-терьер"
+  },
+  {
+    "nameEn": "Sloughi",
+    "nameRu": "Слюги"
+  },
+  {
+    "nameEn": "Slovak Cuvac",
+    "nameRu": "Словацкий чувач"
+  },
+  {
+    "nameEn": "Slovakian Hound",
+    "nameRu": "Словацкая гончая"
+  },
+  {
+    "nameEn": "Smalandstovare",
+    "nameRu": "Смоландстёваре"
+  },
+  {
+    "nameEn": "Small Blue Gascony Hound",
+    "nameRu": "Малый голубой гасконский гончий"
+  },
+  {
+    "nameEn": "Small Munsterlander",
+    "nameRu": "Малый мюнстерлендер"
+  },
+  {
+    "nameEn": "Smooth Collie",
+    "nameRu": "Короткошерстный колли"
+  },
+  {
+    "nameEn": "Smooth Fox Terrier",
+    "nameRu": "Гладкошерстный фокстерьер"
+  },
+  {
+    "nameEn": "Soft Coated Wheaten Terrier",
+    "nameRu": "Ирландский мягкошерстный пшеничный терьер"
+  },
+  {
+    "nameEn": "South Russian Shepherd Dog",
+    "nameRu": "Южнорусская овчарка"
+  },
+  {
+    "nameEn": "Spanish Hound",
+    "nameRu": "Испанская гончая"
+  },
+  {
+    "nameEn": "Spanish Mastiff",
+    "nameRu": "Испанский мастиф"
+  },
+  {
+    "nameEn": "Spanish Water Dog",
+    "nameRu": "Испанская водяная собака"
+  },
+  {
+    "nameEn": "Spinone Italiano",
+    "nameRu": "Спиноне итальяно"
+  },
+  {
+    "nameEn": "Squirrel Dog",
+    "nameRu": "Белковая собака"
+  },
+  {
+    "nameEn": "Staffordshire Bull Terrier",
+    "nameRu": "Стаффордширский бультерьер"
+  },
+  {
+    "nameEn": "Standard Schnauzer",
+    "nameRu": "Стандартный шнауцер"
+  },
+  {
+    "nameEn": "Steinbracke",
+    "nameRu": "Штейнбракк"
+  },
+  {
+    "nameEn": "Stephens Cur",
+    "nameRu": "Стивенс кер"
+  },
+  {
+    "nameEn": "Styrian Coarse-haired Hound",
+    "nameRu": "Штирийская жесткошерстная гончая"
+  },
+  {
+    "nameEn": "Sussex Spaniel",
+    "nameRu": "Сассекс-спаниель"
+  },
+  {
+    "nameEn": "Swedish Dachsbracke",
+    "nameRu": "Шведский таксообразный бракк"
+  },
+  {
+    "nameEn": "Swedish Elkhound",
+    "nameRu": "Шведский элкхаунд"
+  },
+  {
+    "nameEn": "Swedish Lapphund",
+    "nameRu": "Шведский лаппхунд"
+  },
+  {
+    "nameEn": "Swedish Vallhund",
+    "nameRu": "Шведский вальхунд"
+  },
+  {
+    "nameEn": "Swiss Hound",
+    "nameRu": "Швейцарская гончая"
+  },
+  {
+    "nameEn": "Teddy Roosevelt Terrier",
+    "nameRu": "Тедди рузвельт терьер"
+  },
+  {
+    "nameEn": "Tenterfield Terrier",
+    "nameRu": "Тентерфилд терьер"
+  },
+  {
+    "nameEn": "Tervuren",
+    "nameRu": "Тервюрен"
+  },
+  {
+    "nameEn": "Thai Ridgeback",
+    "nameRu": "Тайский риджбек"
+  },
+  {
+    "nameEn": "Tibetan Mastiff",
+    "nameRu": "Тибетский мастиф"
+  },
+  {
+    "nameEn": "Tibetan Spaniel",
+    "nameRu": "Тибетский спаниель"
+  },
+  {
+    "nameEn": "Tibetan Terrier",
+    "nameRu": "Тибетский терьер"
+  },
+  {
+    "nameEn": "Tosa Inu",
+    "nameRu": "Тоса-ину"
+  },
+  {
+    "nameEn": "Toy Fox Terrier",
+    "nameRu": "Той-фокстерьер"
+  },
+  {
+    "nameEn": "Transylvanian Hound",
+    "nameRu": "Трансильванская гончая"
+  },
+  {
+    "nameEn": "Treeing Cur",
+    "nameRu": "Триинг кер"
+  },
+  {
+    "nameEn": "Treeing Feist",
+    "nameRu": "Триинг файст"
+  },
+  {
+    "nameEn": "Treeing Tennessee Brindle",
+    "nameRu": "Триинг теннесси тигровый"
+  },
+  {
+    "nameEn": "Treeing Walker Coonhound",
+    "nameRu": "Триинг уокер кунхаунд"
+  },
+  {
+    "nameEn": "Tyrolean Hound",
+    "nameRu": "Тирольская гончая"
+  },
+  {
+    "nameEn": "Unknown",
+    "nameRu": "Неизвестно"
+  },
+  {
+    "nameEn": "Valencian Ratter",
+    "nameRu": "Валенсийский крысолов"
+  },
+  {
+    "nameEn": "Valley Bulldog",
+    "nameRu": "Вэлли бульдог"
+  },
+  {
+    "nameEn": "Victorian Bulldog",
+    "nameRu": "Викторианский бульдог"
+  },
+  {
+    "nameEn": "Village Dog",
+    "nameRu": "Деревенская собака"
+  },
+  {
+    "nameEn": "Vizsla",
+    "nameRu": "Венгерская выжла"
+  },
+  {
+    "nameEn": "Weimaraner",
+    "nameRu": "Веймаранер"
+  },
+  {
+    "nameEn": "Welsh Corgi",
+    "nameRu": "Вельш-корги"
+  },
+  {
+    "nameEn": "Welsh Corgi Cardigan",
+    "nameRu": "Вельш-корги кардиган"
+  },
+  {
+    "nameEn": "Welsh Corgi Pembroke",
+    "nameRu": "Вельш-корги пемброк"
+  },
+  {
+    "nameEn": "Welsh Springer Spaniel",
+    "nameRu": "Вельш-спрингер-спаниель"
+  },
+  {
+    "nameEn": "Welsh Terrier",
+    "nameRu": "Вельш-терьер"
+  },
+  {
+    "nameEn": "West Highland White Terrier",
+    "nameRu": "Вест-хайленд-уайт-терьер"
+  },
+  {
+    "nameEn": "West Siberian Laika",
+    "nameRu": "Западно-сибирская лайка"
+  },
+  {
+    "nameEn": "Westphalian Dachsbracke",
+    "nameRu": "Вестфальская таксообразная гончая"
+  },
+  {
+    "nameEn": "Whippet",
+    "nameRu": "Уиппет"
+  },
+  {
+    "nameEn": "White Swiss Shepherd",
+    "nameRu": "Белая швейцарская овчарка"
+  },
+  {
+    "nameEn": "White Swiss Shepherd Dog",
+    "nameRu": "Белая швейцарская овчарка"
+  },
+  {
+    "nameEn": "Wire Fox Terrier",
+    "nameRu": "Жесткошерстный фокстерьер"
+  },
+  {
+    "nameEn": "Wirehaired Pointing Griffon",
+    "nameRu": "Жесткошерстный пойнтер-гриффон"
+  },
+  {
+    "nameEn": "Xoloitzcuintli",
+    "nameRu": "Ксолоитцкуинтли"
+  },
+  {
+    "nameEn": "Yakutian Laika",
+    "nameRu": "Якутская лайка"
+  },
+  {
+    "nameEn": "Yorkshire Terrier",
+    "nameRu": "Йоркширский терьер"
+  }
+]

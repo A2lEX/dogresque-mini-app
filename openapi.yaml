@@ -1,0 +1,1686 @@
+openapi: 3.0.0
+paths:
+  /auth/register/shelter:
+    post:
+      operationId: AuthController_registerShelter
+      summary: Регистрация питомника
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterShelterDto'
+      responses:
+        '201':
+          description: Питомник успешно зарегистрирован
+        '409':
+          description: Питомник с таким email уже существует
+      tags: &ref_0
+        - auth
+  /auth/register/private-person:
+    post:
+      operationId: AuthController_registerPrivatePerson
+      summary: Регистрация частного лица
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterPrivatePersonDto'
+      responses:
+        '201':
+          description: Частное лицо успешно зарегистрировано
+        '409':
+          description: Частное лицо с таким email уже существует
+      tags: *ref_0
+  /auth/login:
+    post:
+      operationId: AuthController_login
+      summary: Вход в систему
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginDto'
+      responses:
+        '200':
+          description: Успешный вход
+        '401':
+          description: Неверный email или пароль
+      tags: *ref_0
+  /auth/me:
+    get:
+      operationId: AuthController_getMe
+      summary: Получить информацию о текущем пользователе
+      parameters: []
+      responses:
+        '200':
+          description: Информация о пользователе
+        '401':
+          description: Не авторизован
+      tags: *ref_0
+      security:
+        - JWT-auth: []
+  /dogs:
+    post:
+      operationId: DogController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateDogDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: DogController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /dogs/{id}:
+    get:
+      operationId: DogController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: DogController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateDogDto'
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: DogController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /shelters:
+    post:
+      operationId: ShelterController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateShelterDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: ShelterController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /shelters/{id}:
+    get:
+      operationId: ShelterController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: ShelterController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateShelterDto'
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: ShelterController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /private-persons:
+    post:
+      operationId: PrivatePersonController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreatePrivatePersonDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: PrivatePersonController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /private-persons/{id}:
+    get:
+      operationId: PrivatePersonController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: PrivatePersonController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdatePrivatePersonDto'
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: PrivatePersonController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /donations:
+    post:
+      operationId: DonationController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateDonationDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: DonationController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /donations/total:
+    get:
+      operationId: DonationController_getTotalAmount
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /donations/dog/{dogId}:
+    get:
+      operationId: DonationController_findByDogId
+      parameters:
+        - name: dogId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /donations/dog/{dogId}/total:
+    get:
+      operationId: DonationController_getTotalAmountByDogId
+      parameters:
+        - name: dogId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /donations/{id}:
+    get:
+      operationId: DonationController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /goals:
+    post:
+      operationId: GoalController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateGoalDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: GoalController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /goals/dog/{dogId}:
+    get:
+      operationId: GoalController_findByDogId
+      parameters:
+        - name: dogId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /goals/{id}:
+    get:
+      operationId: GoalController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: GoalController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateGoalDto'
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: GoalController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /subscriptions:
+    post:
+      operationId: SubscriptionController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateSubscriptionDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: SubscriptionController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /subscriptions/dog/{dogId}:
+    get:
+      operationId: SubscriptionController_findByDogId
+      parameters:
+        - name: dogId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /subscriptions/{id}:
+    get:
+      operationId: SubscriptionController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: SubscriptionController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateSubscriptionDto'
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: SubscriptionController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /dog-stories:
+    post:
+      operationId: DogStoryController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateDogStoryDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: DogStoryController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /dog-stories/dog/{dogId}:
+    get:
+      operationId: DogStoryController_findByDogId
+      parameters:
+        - name: dogId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /dog-stories/{id}:
+    get:
+      operationId: DogStoryController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: DogStoryController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateDogStoryDto'
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: DogStoryController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /dog-history:
+    post:
+      operationId: DogHistoryController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateDogHistoryDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: DogHistoryController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /dog-history/dog/{dogId}:
+    get:
+      operationId: DogHistoryController_findByDogId
+      parameters:
+        - name: dogId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /dog-history/{id}:
+    get:
+      operationId: DogHistoryController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: DogHistoryController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateDogHistoryDto'
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: DogHistoryController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /dog-photos:
+    post:
+      operationId: DogPhotoController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateDogPhotoDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: DogPhotoController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /dog-photos/dog/{dogId}:
+    get:
+      operationId: DogPhotoController_findByDogId
+      parameters:
+        - name: dogId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /dog-photos/{id}:
+    get:
+      operationId: DogPhotoController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: DogPhotoController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateDogPhotoDto'
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: DogPhotoController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /dog-photos/{id}/likes-count:
+    get:
+      operationId: DogPhotoController_getLikesCount
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /dog-photos/{id}/comments-count:
+    get:
+      operationId: DogPhotoController_getCommentsCount
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /photo-likes:
+    post:
+      operationId: PhotoLikeController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreatePhotoLikeDto'
+      responses:
+        '201':
+          description: ''
+  /photo-likes/photo/{photoId}:
+    get:
+      operationId: PhotoLikeController_findByPhotoId
+      parameters:
+        - name: photoId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: PhotoLikeController_remove
+      parameters:
+        - name: photoId
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: userId
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /photo-likes/photo/{photoId}/count:
+    get:
+      operationId: PhotoLikeController_getLikesCount
+      parameters:
+        - name: photoId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /photo-likes/photo/{photoId}/check:
+    get:
+      operationId: PhotoLikeController_checkIfLiked
+      parameters:
+        - name: photoId
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: userId
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /photo-comments:
+    post:
+      operationId: PhotoCommentController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreatePhotoCommentDto'
+      responses:
+        '201':
+          description: ''
+    get:
+      operationId: PhotoCommentController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /photo-comments/photo/{photoId}:
+    get:
+      operationId: PhotoCommentController_findByPhotoId
+      parameters:
+        - name: photoId
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: includeReplies
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /photo-comments/parent/{parentId}:
+    get:
+      operationId: PhotoCommentController_findByParentId
+      parameters:
+        - name: parentId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /photo-comments/photo/{photoId}/count:
+    get:
+      operationId: PhotoCommentController_getCommentsCount
+      parameters:
+        - name: photoId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /photo-comments/{id}:
+    get:
+      operationId: PhotoCommentController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: PhotoCommentController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdatePhotoCommentDto'
+      responses:
+        '200':
+          description: ''
+    delete:
+      operationId: PhotoCommentController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /dog-breeds:
+    get:
+      operationId: DogBreedController_findAll
+      summary: Получить список всех пород собак
+      description: >-
+        Возвращает список всех активных пород собак с переводами на указанном языке. Язык определяется автоматически из
+        заголовков, query параметра или cookie, либо можно указать явно через параметр lang.
+      parameters:
+        - name: lang
+          required: false
+          in: query
+          description: >-
+            Язык для переводов (ru - русский, en - английский). Если не указан, используется язык из заголовков или
+            cookie.
+          schema:
+            enum:
+              - ru
+              - en
+            type: string
+      responses:
+        '200':
+          description: Список пород собак успешно получен
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DogBreedResponseDto'
+      tags: &ref_1
+        - dog-breeds
+  /dog-breeds/{id}:
+    get:
+      operationId: DogBreedController_findOne
+      summary: Получить породу по ID
+      description: Возвращает информацию о конкретной породе собак с переводом на указанном языке
+      parameters:
+        - name: id
+          required: true
+          in: path
+          description: ID породы
+          schema:
+            example: 550e8400-e29b-41d4-a716-446655440001
+            type: string
+        - name: lang
+          required: false
+          in: query
+          description: Язык для переводов
+          schema:
+            enum:
+              - ru
+              - en
+            type: string
+      responses:
+        '200':
+          description: Порода найдена
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DogBreedResponseDto'
+        '404':
+          description: Порода не найдена
+      tags: *ref_1
+  /dog-breeds/code/{code}:
+    get:
+      operationId: DogBreedController_findByCode
+      summary: Получить породу по коду
+      description: Возвращает информацию о породе собак по её коду (например, german_shepherd) с переводом на указанном языке
+      parameters:
+        - name: code
+          required: true
+          in: path
+          description: Код породы (например, german_shepherd)
+          schema:
+            example: german_shepherd
+            type: string
+        - name: lang
+          required: false
+          in: query
+          description: Язык для переводов
+          schema:
+            enum:
+              - ru
+              - en
+            type: string
+      responses:
+        '200':
+          description: Порода найдена
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DogBreedResponseDto'
+        '404':
+          description: Порода не найдена
+      tags: *ref_1
+info:
+  title: DogResque API
+  description: API для сайта донатов для собак
+  version: '1.0'
+  contact: {}
+tags:
+  - name: auth
+    description: Аутентификация и авторизация
+  - name: dogs
+    description: Управление собаками
+  - name: shelters
+    description: Управление питомниками
+  - name: private-persons
+    description: Управление частными лицами
+  - name: donations
+    description: Управление донатами
+  - name: goals
+    description: Управление целями
+  - name: subscriptions
+    description: Управление подписками
+  - name: dog-stories
+    description: Управление сторис собак
+  - name: dog-history
+    description: Управление историей собак
+  - name: dog-photos
+    description: Управление фотографиями собак
+  - name: photo-likes
+    description: Управление лайками на фотографии
+  - name: photo-comments
+    description: Управление комментариями к фотографиям
+  - name: dog-breeds
+    description: Справочник пород собак
+servers: []
+components:
+  securitySchemes:
+    JWT-auth:
+      scheme: bearer
+      bearerFormat: JWT
+      type: http
+      name: JWT
+      description: Введите JWT токен
+      in: header
+  schemas:
+    RegisterShelterDto:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Название питомника
+          example: Приют для бездомных собак
+        email:
+          type: string
+          description: Email для авторизации
+          example: shelter@example.com
+        password:
+          type: string
+          description: Пароль (минимум 6 символов)
+          example: password123
+          minLength: 6
+        description:
+          type: string
+          description: Описание питомника
+          example: Мы помогаем бездомным собакам найти дом
+        address:
+          type: string
+          description: Адрес
+          example: г. Москва, ул. Ленина, д. 1
+        phone:
+          type: string
+          description: Телефон
+          example: +7 (999) 123-45-67
+        website:
+          type: string
+          description: Веб-сайт
+          example: https://shelter.example.com
+        logoUrl:
+          type: string
+          description: URL логотипа
+          example: https://example.com/logo.png
+      required:
+        - name
+        - email
+        - password
+    RegisterPrivatePersonDto:
+      type: object
+      properties:
+        firstName:
+          type: string
+          description: Имя
+          example: Иван
+        email:
+          type: string
+          description: Email для авторизации
+          example: ivan@example.com
+        password:
+          type: string
+          description: Пароль (минимум 6 символов)
+          example: password123
+          minLength: 6
+        lastName:
+          type: string
+          description: Фамилия
+          example: Иванов
+        phone:
+          type: string
+          description: Телефон
+          example: +7 (999) 123-45-67
+        avatarUrl:
+          type: string
+          description: URL аватара или base64 строка (data:image/png;base64,...)
+          example: https://example.com/avatar.jpg или data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...
+      required:
+        - firstName
+        - email
+        - password
+    LoginDto:
+      type: object
+      properties:
+        email:
+          type: string
+          description: Email пользователя
+          example: user@example.com
+        password:
+          type: string
+          description: Пароль
+          example: password123
+        userType:
+          type: string
+          description: Тип пользователя
+          enum:
+            - shelter
+            - private_person
+          example: shelter
+      required:
+        - email
+        - password
+        - userType
+    CreateDogDto:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Имя собаки
+          example: Бобик
+        breed:
+          type: string
+          description: Порода
+          example: Лабрадор
+        breedId:
+          type: string
+          description: ID породы из справочника
+          example: c9bf9e57-1685-4c89-bafb-ff5af830be8a
+        age:
+          type: number
+          description: Возраст
+          example: 3
+          minimum: 0
+          maximum: 30
+        description:
+          type: string
+          description: Описание
+          example: Дружелюбная собака
+        imageUrl:
+          type: string
+          description: URL изображения
+          example: https://example.com/image.jpg
+        shelterId:
+          type: string
+          description: ID питомника (если собака принадлежит питомнику)
+        privatePersonId:
+          type: string
+          description: ID частного лица (если собака принадлежит частному лицу)
+      required:
+        - name
+    UpdateDogDto:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Имя собаки
+          example: Бобик
+        breed:
+          type: string
+          description: Порода
+          example: Лабрадор
+        breedId:
+          type: string
+          description: ID породы из справочника
+          example: c9bf9e57-1685-4c89-bafb-ff5af830be8a
+        age:
+          type: number
+          description: Возраст
+          example: 3
+        description:
+          type: string
+          description: Описание
+          example: Дружелюбная собака
+        imageUrl:
+          type: string
+          description: URL изображения
+          example: https://example.com/image.jpg
+        status:
+          type: string
+          description: Статус
+          enum:
+            - active
+            - completed
+            - archived
+        shelterId:
+          type: string
+          description: ID питомника
+        privatePersonId:
+          type: string
+          description: ID частного лица
+    CreateShelterDto:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Название питомника
+          example: Приют для бездомных собак
+        description:
+          type: string
+          description: Описание питомника
+          example: Мы помогаем бездомным собакам найти дом
+        address:
+          type: string
+          description: Адрес
+          example: г. Москва, ул. Ленина, д. 1
+        phone:
+          type: string
+          description: Телефон
+          example: +7 (999) 123-45-67
+        email:
+          type: string
+          description: Email
+          example: shelter@example.com
+        password:
+          type: string
+          description: Пароль (минимум 6 символов)
+          example: password123
+          minLength: 6
+        website:
+          type: string
+          description: Веб-сайт
+          example: https://shelter.example.com
+        logoUrl:
+          type: string
+          description: URL логотипа
+          example: https://example.com/logo.png
+      required:
+        - name
+        - email
+        - password
+    UpdateShelterDto:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Название питомника
+          example: Приют для бездомных собак
+        description:
+          type: string
+          description: Описание питомника
+          example: Мы помогаем бездомным собакам найти дом
+        address:
+          type: string
+          description: Адрес
+          example: г. Москва, ул. Ленина, д. 1
+        phone:
+          type: string
+          description: Телефон
+          example: +7 (999) 123-45-67
+        email:
+          type: string
+          description: Email
+          example: shelter@example.com
+        website:
+          type: string
+          description: Веб-сайт
+          example: https://shelter.example.com
+        logoUrl:
+          type: string
+          description: URL логотипа
+          example: https://example.com/logo.png
+    CreatePrivatePersonDto:
+      type: object
+      properties:
+        firstName:
+          type: string
+          description: Имя
+          example: Иван
+        lastName:
+          type: string
+          description: Фамилия
+          example: Иванов
+        email:
+          type: string
+          description: Email
+          example: ivan@example.com
+        password:
+          type: string
+          description: Пароль (минимум 6 символов)
+          example: password123
+          minLength: 6
+        phone:
+          type: string
+          description: Телефон
+          example: +7 (999) 123-45-67
+        avatarUrl:
+          type: string
+          description: URL аватара или base64 строка (data:image/png;base64,...)
+          example: https://example.com/avatar.jpg или data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...
+      required:
+        - firstName
+        - email
+        - password
+    UpdatePrivatePersonDto:
+      type: object
+      properties:
+        firstName:
+          type: string
+          description: Имя
+          example: Иван
+        lastName:
+          type: string
+          description: Фамилия
+          example: Иванов
+        email:
+          type: string
+          description: Email
+          example: ivan@example.com
+        phone:
+          type: string
+          description: Телефон
+          example: +7 (999) 123-45-67
+        avatarUrl:
+          type: string
+          description: URL аватара или base64 строка (data:image/png;base64,...)
+          example: https://example.com/avatar.jpg или data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...
+    CreateDonationDto:
+      type: object
+      properties:
+        dogId:
+          type: string
+          description: ID собаки
+          example: uuid
+        amount:
+          type: number
+          description: Сумма доната
+          example: 1000.5
+          minimum: 0.01
+        donorName:
+          type: string
+          description: Имя донора
+          example: Иван Иванов
+        donorEmail:
+          type: string
+          description: Email донора
+          example: ivan@example.com
+        message:
+          type: string
+          description: Сообщение от донора
+          example: Желаю здоровья!
+        isAnonymous:
+          type: boolean
+          description: Анонимный донат
+          example: false
+          default: false
+      required:
+        - dogId
+        - amount
+    CreateGoalDto:
+      type: object
+      properties:
+        dogId:
+          type: string
+          description: ID собаки
+          example: uuid
+        title:
+          type: string
+          description: Название цели
+          example: Лечение лапки
+        description:
+          type: string
+          description: Описание цели
+          example: Нужно собрать средства на операцию
+        targetAmount:
+          type: number
+          description: Целевая сумма
+          example: 50000
+          minimum: 0.01
+        deadline:
+          format: date-time
+          type: string
+          description: Срок выполнения
+          example: '2024-12-31T23:59:59Z'
+      required:
+        - dogId
+        - title
+        - targetAmount
+    UpdateGoalDto:
+      type: object
+      properties:
+        title:
+          type: string
+          description: Название цели
+          example: Лечение лапки
+        description:
+          type: string
+          description: Описание цели
+          example: Нужно собрать средства на операцию
+        targetAmount:
+          type: number
+          description: Целевая сумма
+          example: 50000
+          minimum: 0.01
+        currentAmount:
+          type: number
+          description: Текущая сумма
+          example: 25000
+          minimum: 0
+        status:
+          type: string
+          description: Статус
+          enum:
+            - active
+            - completed
+            - cancelled
+        deadline:
+          format: date-time
+          type: string
+          description: Срок выполнения
+          example: '2024-12-31T23:59:59Z'
+    CreateSubscriptionDto:
+      type: object
+      properties:
+        dogId:
+          type: string
+          description: ID собаки
+          example: uuid
+        title:
+          type: string
+          description: Название подписки
+          example: Ежемесячный патронаж
+        description:
+          type: string
+          description: Описание подписки
+          example: Поддерживайте собаку ежемесячно
+        amount:
+          type: number
+          description: Ежемесячная сумма
+          example: 1000
+          minimum: 0.01
+        isExclusive:
+          type: boolean
+          description: Эксклюзивная подписка
+          example: false
+          default: false
+        maxSubscribers:
+          type: number
+          description: Максимальное количество подписчиков (для коллективной)
+          example: 10
+          minimum: 1
+      required:
+        - dogId
+        - title
+        - amount
+    UpdateSubscriptionDto:
+      type: object
+      properties:
+        title:
+          type: string
+          description: Название подписки
+          example: Ежемесячный патронаж
+        description:
+          type: string
+          description: Описание подписки
+          example: Поддерживайте собаку ежемесячно
+        amount:
+          type: number
+          description: Ежемесячная сумма
+          example: 1000
+          minimum: 0.01
+        isExclusive:
+          type: boolean
+          description: Эксклюзивная подписка
+          example: false
+        maxSubscribers:
+          type: number
+          description: Максимальное количество подписчиков
+          example: 10
+          minimum: 1
+        currentSubscribers:
+          type: number
+          description: Текущее количество подписчиков
+          example: 5
+          minimum: 0
+        status:
+          type: string
+          description: Статус
+          enum:
+            - active
+            - completed
+            - cancelled
+    CreateDogStoryDto:
+      type: object
+      properties:
+        dogId:
+          type: string
+          description: ID собаки
+          example: uuid
+        title:
+          type: string
+          description: Заголовок
+          example: Новая прогулка
+        content:
+          type: string
+          description: Содержание
+          example: Сегодня мы гуляли в парке
+        imageUrl:
+          type: string
+          description: URL изображения
+          example: https://example.com/image.jpg
+        videoUrl:
+          type: string
+          description: URL видео
+          example: https://example.com/video.mp4
+      required:
+        - dogId
+        - content
+    UpdateDogStoryDto:
+      type: object
+      properties:
+        title:
+          type: string
+          description: Заголовок
+          example: Новая прогулка
+        content:
+          type: string
+          description: Содержание
+          example: Сегодня мы гуляли в парке
+        imageUrl:
+          type: string
+          description: URL изображения
+          example: https://example.com/image.jpg
+        videoUrl:
+          type: string
+          description: URL видео
+          example: https://example.com/video.mp4
+    CreateDogHistoryDto:
+      type: object
+      properties:
+        dogId:
+          type: string
+          description: ID собаки
+          example: uuid
+        title:
+          type: string
+          description: Заголовок события
+          example: Операция
+        description:
+          type: string
+          description: Описание события
+          example: Успешно проведена операция на лапке
+        eventDate:
+          format: date-time
+          type: string
+          description: Дата события
+          example: '2024-11-01T10:00:00Z'
+      required:
+        - dogId
+        - title
+        - description
+    UpdateDogHistoryDto:
+      type: object
+      properties:
+        title:
+          type: string
+          description: Заголовок события
+          example: Операция
+        description:
+          type: string
+          description: Описание события
+          example: Успешно проведена операция на лапке
+        eventDate:
+          format: date-time
+          type: string
+          description: Дата события
+          example: '2024-11-01T10:00:00Z'
+    CreateDogPhotoDto:
+      type: object
+      properties:
+        dogId:
+          type: string
+          description: ID собаки
+          example: uuid
+        imageUrl:
+          type: string
+          description: URL изображения
+          example: https://example.com/photo.jpg
+        caption:
+          type: string
+          description: Подпись к фотографии
+          example: Моя любимая собака на прогулке
+        location:
+          type: string
+          description: Местоположение
+          example: Москва, Парк Горького
+      required:
+        - dogId
+        - imageUrl
+    UpdateDogPhotoDto:
+      type: object
+      properties:
+        imageUrl:
+          type: string
+          description: URL изображения
+          example: https://example.com/photo.jpg
+        caption:
+          type: string
+          description: Подпись к фотографии
+          example: Моя любимая собака на прогулке
+        location:
+          type: string
+          description: Местоположение
+          example: Москва, Парк Горького
+    CreatePhotoLikeDto:
+      type: object
+      properties:
+        photoId:
+          type: string
+          description: ID фотографии
+          example: uuid
+        userId:
+          type: string
+          description: ID пользователя
+          example: user123
+        userName:
+          type: string
+          description: Имя пользователя (для анонимных лайков)
+          example: Иван
+        userEmail:
+          type: string
+          description: Email пользователя
+          example: ivan@example.com
+      required:
+        - photoId
+    CreatePhotoCommentDto:
+      type: object
+      properties:
+        photoId:
+          type: string
+          description: ID фотографии
+          example: uuid
+        userId:
+          type: string
+          description: ID пользователя
+          example: user123
+        userName:
+          type: string
+          description: Имя пользователя
+          example: Иван
+        userEmail:
+          type: string
+          description: Email пользователя
+          example: ivan@example.com
+        content:
+          type: string
+          description: Текст комментария
+          example: Какая красивая собака!
+          minLength: 1
+        parentId:
+          type: string
+          description: ID родительского комментария (для ответов)
+          example: uuid
+      required:
+        - photoId
+        - content
+    UpdatePhotoCommentDto:
+      type: object
+      properties:
+        content:
+          type: string
+          description: Текст комментария
+          example: Обновленный комментарий
+          minLength: 1
+      required:
+        - content
+    DogBreedResponseDto:
+      type: object
+      properties:
+        id:
+          type: string
+          description: ID породы
+          example: 550e8400-e29b-41d4-a716-446655440001
+        code:
+          type: string
+          description: Код породы
+          example: german_shepherd
+        name:
+          type: string
+          description: Название породы на указанном языке
+          example: Немецкая овчарка
+        description:
+          type: string
+          description: Описание породы на указанном языке
+          example: Умная и преданная порода, часто используется в служебных целях
+          nullable: true
+        language:
+          type: string
+          description: Язык перевода
+          example: ru
+          enum:
+            - ru
+            - en
+        isActive:
+          type: boolean
+          description: Активна ли порода
+          example: true
+        createdAt:
+          format: date-time
+          type: string
+          description: Дата создания
+          example: '2024-01-01T00:00:00.000Z'
+        updatedAt:
+          format: date-time
+          type: string
+          description: Дата обновления
+          example: '2024-01-01T00:00:00.000Z'
+      required:
+        - id
+        - code
+        - name
+        - language
+        - createdAt
+        - updatedAt
