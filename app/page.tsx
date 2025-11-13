@@ -80,7 +80,9 @@ export default function Home() {
 
     const currentDog = dogs[currentIndex];
     if (currentDog) {
-      setSwipedDogs(new Set([...swipedDogs, currentDog.id]));
+      const newSwipedDogs = new Set(swipedDogs);
+      newSwipedDogs.add(currentDog.id);
+      setSwipedDogs(newSwipedDogs);
       if (direction === 'right') {
         console.log('Лайк собаке:', currentDog.name);
       }
