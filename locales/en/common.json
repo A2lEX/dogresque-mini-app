@@ -348,6 +348,7 @@
     "uploadImage": "Upload image",
     "imageUrl": "Image URL",
     "imageUrlPlaceholder": "https://example.com/photo.jpg",
+    "imagePreview": "Photo preview",
     "deleteImage": "Delete image",
     "uploadHint": "Upload image or enter URL",
     "caption": "Photo caption",

@@ -348,6 +348,7 @@
     "uploadImage": "Загрузить изображение",
     "imageUrl": "URL изображения",
     "imageUrlPlaceholder": "https://example.com/photo.jpg",
+    "imagePreview": "Превью фотографии",
     "deleteImage": "Удалить изображение",
     "uploadHint": "Загрузите изображение или введите URL",
     "caption": "Подпись к фотографии",

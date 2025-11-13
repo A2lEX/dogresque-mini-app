@@ -263,7 +263,7 @@ export default function DonationsPage() {
                           </div>
                         </div>
                         {donation.message && (
-                          <p className="text-gray-700 ml-11 italic">"{donation.message}"</p>
+                          <p className="text-gray-700 ml-11 italic">&ldquo;{donation.message}&rdquo;</p>
                         )}
                       </div>
                       <div className="text-right">

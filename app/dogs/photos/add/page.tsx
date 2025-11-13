@@ -241,7 +241,7 @@ export default function AddPhotoPage() {
                 {imagePreview ? (
                   <img
                     src={imagePreview}
-                    alt="Photo preview"
+                    alt={t('addPhoto.imagePreview') || 'Photo preview'}
                     className="w-full h-full object-cover"
                     onError={() => setImagePreview('')}
                   />
