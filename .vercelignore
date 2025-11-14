@@ -1,0 +1,10 @@
+.next
+.git
+.vercel
+prisma/migrations
+scripts
+.github
+data/dog-breeds.json
+*.log
+*.tsbuildinfo
+
