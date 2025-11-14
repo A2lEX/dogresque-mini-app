@@ -34,3 +34,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# vite (not used in this Next.js project)
+vite.config.*
+
