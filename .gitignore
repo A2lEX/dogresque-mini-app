@@ -12,6 +12,8 @@
 /.next/
 /out/
 .next/types/
+# КРИТИЧЕСКИ ВАЖНО: НЕ добавляйте .next/types/**/*.ts в tsconfig.json include!
+# Это вызывает "Maximum call stack size exceeded" на Vercel
 
 # production
 /build
