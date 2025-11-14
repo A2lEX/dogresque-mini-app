@@ -1,19 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Исключаем проблемные директории из trace для избежания рекурсии на Vercel
-  // Используем простые паттерны без ** чтобы избежать проблем с micromatch
+  // Исключаем только проблемные директории, но НЕ node_modules
+  // так как Next.js нужен доступ к зависимостям во время выполнения
   experimental: {
     outputFileTracingExcludes: {
       '*': [
-        'node_modules',
         '.next',
         '.git',
         '.vercel',
-        'prisma',
+        'prisma/migrations',
         'scripts',
         '.github',
-        'data',
+        'data/dog-breeds.json',
       ],
     },
   },
